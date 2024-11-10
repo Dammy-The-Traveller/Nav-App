@@ -1,0 +1,26 @@
+{
+    "name": "pc/www",
+    "authors": [
+        {
+            "name": "Dammy The Traveller",
+            "email": "adebesindamilare39@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^11.20"
+    },
+    "autoload":{
+        "psr-4":{
+          "core\\": "core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.35"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
